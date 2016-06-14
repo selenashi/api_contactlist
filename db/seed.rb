@@ -1,0 +1,2 @@
+Contact.create(name: 'John Stewart', phone: '7788990671', email: 'john.stewart@mail.com', image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRSDVl-CKvQ2cCnJArFQNIoyiL4A4BrYb1U69sjhO8UqCuLciFVJA")
+Contact.create(name: 'Emily Carole', phone: '7788909871', email: 'emily.carole@mail.com', image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa_T1OErkkAJpnW9_XNX53Z3e39ZHm7QYlSgoqf3JJyMGKF8xhwg")

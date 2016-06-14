@@ -1,0 +1,48 @@
+<h1>Contacts Database</h1>
+
+<button id="loadContacts" class="btn btn-lg btn-success">Load Contacts</button>
+<button id="addContact" class="btn btn-lg btn-info">Add Contact</button>
+<button id="loadSearch" class="btn btn-lg btn-warning">Search Contacts</button>
+
+<input type="text" id="search" placeholder="Enter Contact Name"><br>
+
+<div id="results">
+  <table id="contacts" class="table table-hover">
+    <thead class="thead-inverse">
+      <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody> 
+    </tbody>
+  </table>
+</div>
+
+<div id="contactForm">
+  <fieldset>
+    <legend>Add New Contact</legend>
+    <form id="newContact" class="form-inline">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" class="form-control" placeholder="name">
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" class="form-control" placeholder="phone">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="form-control" placeholder="email">
+      </div>
+
+      <button type="submit" class="btn btn-primary" value="Create Contact">Submit</button>
+    </form>
+  </fieldset>
+</div>
+
+
